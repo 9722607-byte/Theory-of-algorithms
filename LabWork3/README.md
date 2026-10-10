@@ -41,9 +41,4 @@ sorted_A = heapsort(A.copy())
 print("Відсортований масив:", sorted_A)
 [cite: 25]
 ```
-  
-    n2 -> n6;
-    
-    n3 -> n7;
-    n3 -> n8;
 }
