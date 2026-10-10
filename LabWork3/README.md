@@ -41,32 +41,7 @@ sorted_A = heapsort(A.copy())
 print("Відсортований масив:", sorted_A)
 [cite: 25]
 ```
-
-#### Графічне представлення для Рисунка 3.9 та 3.10
-
-```dot
-digraph HeapTree {
-    node [shape=circle, style="filled", fillcolor="#e0f7fa", fontname="Arial", fontsize=11, width=0.6];
-    edge [color="#00838f", arrowhead=none];
-
-    // Максимальна купа після Фази 1 (Корінь 99)
-    root [label="99", fillcolor="#80deea"];
-    n1 [label="75"];
-    n2 [label="50"];
-    n3 [label="58"];
-    n4 [label="61"];
-    n5 [label="32"];
-    n6 [label="27"];
-    n7 [label="45"];
-    n8 [label="5"];
-
-    root -> n1;
-    root -> n2;
-    
-    n1 -> n3;
-    n1 -> n4;
-    
-    n2 -> n5;
+  
     n2 -> n6;
     
     n3 -> n7;
