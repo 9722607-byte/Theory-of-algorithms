@@ -1,4 +1,4 @@
-```
+```python
 def swap(arr, i, j):
     """Міняє місцями два елементи в масиві."""
     arr[i], arr[j] = arr[j], arr[i]
